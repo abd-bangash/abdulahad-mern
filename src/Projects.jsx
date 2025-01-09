@@ -54,12 +54,12 @@ function Projects() {
 
   return (
     <>
-      <div className="w-full bg-zinc-900 pt-20 pb-10 px-5 md:h-screen">
+      <div className="w-full bg-zinc-900 pt-20 pb-10 px-5 ">
         {/* Add padding to prevent the heading from being hidden */}
         <h1 className="text-4xl font-bold text-center mb-10 text-white">
           My Projects
         </h1>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-14 md:px-10 md:pb-8">
           {projects.map((project, index) => (
             <div
               key={index}
