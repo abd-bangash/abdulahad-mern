@@ -5,7 +5,7 @@ import docsImage from "../public/assets/docs.png";
 import exptImage from "../public/assets/expt.png";
 import simImage from "../public/assets/sim.png";
 import gbImage from "../public/assets/gb.png";
-import mindspace from "../public/assets/mindspace.png";
+import mindspace from "../public/assets/ms.png";
 
 function Projects() {
   const projects = [
@@ -21,7 +21,7 @@ function Projects() {
       description:
         "Your Journey to Mental Wellness Discover the tools, community, and resources to nurture your mind and build resilience in a safe, supportive environment.",
       image: mindspace, // Replace this with actual image
-      link: "https://steady-profiterole-56cffc.netlify.app/journal",
+      link: "https://project-me8k1seht-abdul-ahads-projects-12eb7c8d.vercel.app/",
     },
 
     {
